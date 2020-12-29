@@ -1,0 +1,22 @@
+{
+  "name": "mynatours",
+  "version": "1.0.0",
+  "description": "Sass Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moustamid/Natours-Saas.git"
+  },
+  "author": "Karim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moustamid/Natours-Saas/issues"
+  },
+  "homepage": "https://github.com/Moustamid/Natours-Saas#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
