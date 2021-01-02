@@ -1,31 +1,11 @@
 // Header Btn :
 
-<<<<<<< HEAD
-// FIXME: Active State not Working
-=======
 // FIXME: Active State not Working : Fixed ✔
->>>>>>> 02-AboutSection
 
 .btn {
   &,
   &:link,
   &:visited {
-<<<<<<< HEAD
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 1.5rem 4rem;
-    border-radius: 10rem;
-    transition: all 0.2s;
-    font-size: 1.4rem;
-    position: relative;
-  }
-
-  &:active {
-    transform: translateY(-1px);
-    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
-  }
-=======
     text-transform: uppercase;
     text-decoration: none;
     padding: 1.5rem 4rem;
@@ -56,7 +36,6 @@
     box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
   }
 
->>>>>>> 02-AboutSection
   &--white {
     background-color: $color-white;
     color: $color-grey-dark;
@@ -66,22 +45,12 @@
     }
   }
 
-<<<<<<< HEAD
-  &:hover {
-    transform: translateY(-0.3rem);
-    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
-
-    &::after {
-      transform: scaleX(1.4) scaleY(1.6);
-      opacity: 0;
-=======
   &--green {
     background-color: $color-primary;
     color: $color-white;
 
     &::after {
       background-color: $color-primary;
->>>>>>> 02-AboutSection
     }
   }
 
@@ -91,28 +60,14 @@
     height: 100%;
     width: 100%;
     border-radius: 10rem;
-<<<<<<< HEAD
-
-=======
->>>>>>> 02-AboutSection
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-<<<<<<< HEAD
-
-=======
->>>>>>> 02-AboutSection
     transition: all 0.4s;
   }
 
   &--animated {
-<<<<<<< HEAD
-    animation: moveInUp 0.5s ease-out 0.75s;
-    animation-fill-mode: backwards;
-  }
-}
-=======
     animation: moveInBottom 0.5s ease-out 0.75s;
     animation-fill-mode: backwards;
   }
@@ -144,4 +99,3 @@
     transform: translateY(0);
   }
 }
->>>>>>> 02-AboutSection
