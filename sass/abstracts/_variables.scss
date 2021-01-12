@@ -4,21 +4,21 @@ $default-font-size: 1.6rem;
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
 $color-white: #fff;
 $color-black: #000;
+
 $color-grey-dark: #777;
 $color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
 
 // Grid :
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;
-
-//  TODO: upgrade the responsive variables - folowing jonas's way :
-$xx-layout: "only screen and (min-width: 1366px) and (max-width: 1600px)";
-$xl-layout: "only screen and (min-width: 1200px) and (max-width: 1365px)";
-$lg-layout: "only screen and (min-width: 992px) and (max-width: 1199px)";
-$md-layout: "only screen and (min-width: 768px) and (max-width: 991px)";
-$xs-layout: "only screen and (max-width: 767px)";
-$sm-layout: "only screen and (min-width: 576px) and (max-width: 767px)";
-$xxs-layout: "only screen and (min-width: 320px) and (max-width: 479px)";
